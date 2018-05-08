@@ -42,3 +42,7 @@ function destructivelyRemoveElementFromEndOfArray (lastOfArray) {
   lastOfArray.pop();
   return lastOfArray;
 }
+function removeElementFromEndOfArray (anotherArray) {
+  anotherArray.slice(0, anotherArray.length -1);
+  return anotherArray;
+}
