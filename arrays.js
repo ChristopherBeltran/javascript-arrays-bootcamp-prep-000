@@ -30,3 +30,6 @@ function accessElementInArray (array, index) {
   return [index];
 }
 
+function destructivelyRemoveElementsFromBeginningOfArray (desArray) {
+  
+}
